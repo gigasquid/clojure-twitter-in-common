@@ -9,6 +9,6 @@ Once you have your oauth-access-token and your oauth-access-token-secret, you ca
 
 ## License
 
-Copyright (C) 2010 FIXME
+Copyright (C) 2010 Gigasquid Software LLC
 
 Distributed under the Eclipse Public License, the same as Clojure.
