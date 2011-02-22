@@ -1,8 +1,7 @@
 (ns clojure-twitter-in-common.test.core
   (:use [clojure-twitter-in-common.core] :reload)
   (:use [clojure.test])
-  (:use [midje.sweet])
-  (:use [clojure.contrib.logging]))
+  (:use [midje.sweet]))
 
 (with-test
        (def carin-followers  (twitter/followers-of-name "carinmeier"))
