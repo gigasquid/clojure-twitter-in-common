@@ -15,9 +15,9 @@
 (set-log-level! java.util.logging.Level/SEVERE)
 
 (def oauth-access-token 
-     "mNGQGY4H2CNHJyeVMgeeA")
+     "access-token")
 (def oauth-access-token-secret
-  "Brpf2a4140DmwRgoLsTq8YG4jqJ9BSjkBQYv4qXEVyQ")
+  "access-token-secret")
 
 (def oauth-consumer (oauth/make-consumer oauth-access-token
                                          oauth-access-token-secret
